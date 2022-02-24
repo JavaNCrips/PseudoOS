@@ -1,0 +1,48 @@
+fex2
+0000 first line is the size of the stack
+0000 second line is the size of the heap
+0041 third line is the size of the code
+# program code is located at <stack-size> + <heap-size>
+ 
+# the code starts here
+0000 z1.. clear register 1 (0) 
+0001 Z... display newline
+0002 d1.. display contents of reg 1
+0003 Z... display newline
+0004 i1.. increment register 1 (1)
+0005 d1.. display contents of reg 1
+0006 Z... display newline
+0007 i1.. increment register 1 (2)
+0008 d1.. display contents of reg 1
+0009 Z... display newline
+0010 x... nop
+0011 i1.. increment register 1 (3)
+0012 d1.. display contents of reg 1
+0013 Z... display newline
+0014 i1.. increment register 1 (4)
+0015 d1.. display contents of reg 1
+0016 Z... display newline
+0017 i1.. increment register 1 (5)
+0018 d1.. display contents of reg 1
+0019 Z... display newline
+0020 x... nop
+0021 i1.. increment register 1 (6)
+0022 d1.. display contents of reg 1
+0023 Z... display newline
+0024 i1.. increment register 1 (7)
+0025 d1.. display contents of reg 1
+0026 Z... display newline
+0027 i1.. increment register 1 (8)
+0028 d1.. display contents of reg 1
+0029 Z... display newline
+0030 x... nop
+0031 i1.. increment register 1 (9)
+0032 d1.. display contents of reg 1
+0033 Z... display newline
+0034 i1.. increment register 1 (10)
+0035 d1.. display contents of reg 1
+0036 Z... display newline
+0037 i1.. increment register 1 (11)
+0038 d1.. display contents of reg 1
+0039 Z... display newline
+0040 e... terminate
